@@ -1,0 +1,58 @@
+.Navbar{
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    height: 60px;
+    width: 100%;
+    font-size: 20px;
+
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+  padding: 0px 5%;
+  box-sizing: border-box;
+
+}
+
+.BoxLogo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    text-decoration: none;
+    color: inherit;
+}
+
+.BoxLogo > div{
+    width: 8px;
+    height: 8px;
+    border: 1px solid #000;
+    background-color: orange;
+    margin: 0 6px;
+}
+
+.NavLinks > a{
+    cursor: pointer;
+    font-size: 20px;
+    color: inherit;
+    margin: 0px 5px;
+}
+
+.NavLinks > a:hover{
+    color: #888;
+}
+
+.Icons > a{
+    font-size: 28px;
+}
+
+.BoxLogo:hover{
+    color: #888;
+}
+
+.BoxLogo:hover > div{
+    opacity: 0.6;
+}
