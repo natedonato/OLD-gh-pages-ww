@@ -381,3 +381,13 @@ template {
 body{
   color: #111;
 }
+
+
+#about::before, #projects::before, #skills::before, #resume::before{
+  display: block;
+  content: " ";
+  margin-top: -60px;
+  height: 60px;
+  visibility: hidden;
+  pointer-events: none;
+}

@@ -3,6 +3,12 @@
     font-size: 20px;
 }
 
+@media only screen and (max-width: 568px) {
+    .aboutContainer{
+        padding: 0px 20px;
+    }
+}
+
 .aboutIcons{
     color: black;
     display: inline-block;

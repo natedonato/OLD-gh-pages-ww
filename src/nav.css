@@ -26,6 +26,15 @@
     color: inherit;
 }
 
+@media only screen and (max-width: 568px) {
+    .BoxLogo {
+        display: none;
+    }
+    .Navbar{
+        padding: 0px 0px;
+    }
+}
+
 .BoxLogo > div{
     width: 8px;
     height: 8px;
@@ -44,6 +53,10 @@
 
 .NavLinks > a:hover{
     color: #888;
+}
+
+.Icons{
+    min-width: 76px;
 }
 
 .Icons > a{
