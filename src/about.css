@@ -1,0 +1,30 @@
+.aboutContainer{
+    padding: 0px 50px;
+    font-size: 20px;
+}
+
+.aboutIcons{
+    color: black;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    margin: 0px 5px;
+}
+
+.aboutQ{
+    cursor: pointer;
+    font-weight: bold;
+    color: #0000EE;
+    /* display: inline-block */
+}
+
+.aboutA{
+    /* color: #999; */
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.aboutItem{
+    font-size: 16px;
+    border-bottom: 1px solid #cfcfcf;
+}

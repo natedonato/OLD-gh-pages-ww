@@ -19,7 +19,7 @@ class Navbar extends React.Component {
             </a>
 
             <div className="NavLinks">
-                <a>About</a>
+                <a href="#about">About</a>
                 <a>Projects</a>
                 <a>Skills</a>
                 <a>Resume</a>   
