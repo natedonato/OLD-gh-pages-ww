@@ -3,8 +3,6 @@ import {
     FiPlusCircle,
     FiMinusCircle
 } from "react-icons/fi";
-import { FaPlusCircle } from 'react-icons/fa';
-
 
 class AboutItem extends React.Component{
     constructor(props){

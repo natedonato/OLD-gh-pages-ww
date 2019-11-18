@@ -15,7 +15,7 @@ class About extends React.Component{
             {question: "Storing user uploaded images or videos?",
             answer: "I have integrated sites with Amazon Web Services S3 and MongoDB Atlas for cloud data storage, reducing server load and providing great future scalability."},
             {question: "Need a beautiful and interactive user interface?",
-            answer: "I am not only an expert in vanilla DOM manipulation, but also I have extensive front end framework expertise having built multiple single page web apps using React(with or without Redux for state management).I create mobile responsive designs to fit any size screen from mobile phones to widescreen monitors."
+            answer: "I am not only an expert in vanilla DOM manipulation, but also I have extensive front end framework expertise having built multiple single page web apps using React(with or without Redux for state management).  I create mobile responsive designs to fit any size screen from mobile phones to widescreen monitors.  My mastery of Photoshop also allows me to create and edit custom image assets and frame animations."
             },
             {question: "Looking for something completely different? ",
             answer: "I have built online games, interactive animations, and other highly unique pages that will leave a lasting impression and help drive traffic to your site. I am constantly researching and experimenting with the latest web development technologies to push the limits of possible user experience in modern browsers."

@@ -385,9 +385,11 @@ body{
 
 #about::before, #projects::before, #skills::before, #resume::before{
   display: block;
+  background-color: transparent;
   content: " ";
   margin-top: -60px;
   height: 60px;
   visibility: hidden;
   pointer-events: none;
 }
+

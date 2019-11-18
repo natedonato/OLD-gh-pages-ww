@@ -16,7 +16,7 @@ function Header(){
               <h3>Designer</h3>
               <h3>Engineer</h3>
           </div>
-          <img src={image} />
+          <img className="headImg" src={image} alt="Nate Donato" />
       </div>
     )
 

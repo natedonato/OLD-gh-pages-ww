@@ -1,0 +1,55 @@
+.projectsContainer {
+    background-color: #ededed;
+    height: 2000px;
+    position: relative;
+    z-index: -1;
+} 
+
+.projectHeader{
+    text-align: center;
+}
+
+.projectFlex{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projectThumbnail{
+    width: 100%;
+    margin: 0px;
+    /* height: auto; */
+}
+
+.projectItem{
+    width: calc(33% - 5px);
+    position: relative;
+    background: white;
+    margin-bottom: 10px;
+}
+
+.projectContent{
+    padding: 5px;
+}
+
+.projectLinks{
+    display: flex;
+    justify-content: center;
+}
+
+.projectLinks > a{
+    margin: 0px 10px;
+}
+
+@media (max-width: 568px) {
+    .projectItem{
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .projectItem{
+        width: 49%;
+    }
+}
