@@ -382,8 +382,12 @@ body{
   color: #111;
 }
 
+.App{
+  z-index: -2;
+}
 
-#about::before, #projects::before, #skills::before, #resume::before{
+
+#about::before, #projects::before, #Skills::before, #resume::before{
   display: block;
   background-color: transparent;
   content: " ";
