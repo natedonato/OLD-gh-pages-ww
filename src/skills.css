@@ -13,6 +13,9 @@
     padding: 0px 50px;
     
 }
+
+
+
 /* 
  .skills:after {
      content: "";
@@ -25,7 +28,18 @@
     justify-content: center;
     align-items: center;
     height: 150px;
-    margin: 20px;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .skills {
+        padding: 0px 4px;
+        justify-content: space-evenly;
+    }
+    .skillItem{
+        margin: 5px;
+    }
 }
 
 .skillItem > svg{

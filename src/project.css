@@ -43,14 +43,18 @@
     margin: 0px 10px;
 }
 
-@media (max-width: 568px) {
+@media (max-width: 800px) {
     .projectItem{
         width: 100%;
     }
-}
 
+    .projectFlex{
+        padding: 10px;
+    }
+}
+/* 
 @media (max-width: 800px) {
     .projectItem{
         width: 49%;
     }
-}
+} */
