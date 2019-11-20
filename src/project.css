@@ -35,11 +35,16 @@
 
 .projectContent{
     padding: 5px;
+    padding: 5px 5px 25px;
+    text-align: center;
 }
 
 .projectLinks{
+    position: absolute;
     display: flex;
     justify-content: center;
+    bottom: 10px;
+    width: 100%;
 }
 
 .projectLinks > a{
@@ -96,3 +101,16 @@
     background-color: #ededed;
     height: 20px
 }
+
+.minorProjectContainer{
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* 
+.minorProject{
+    text-align: center;
+} */
+
+/* .minorProject > a{
+    margin: 0px 5px;
+} */

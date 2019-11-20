@@ -15,7 +15,7 @@ function Navbar() {
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
           <a href="#Skills">Skills</a>
-          <a href="#resume">Resume</a>   
+          <a href="#resume" className="resume" >Resume</a>   
       </div>
 
       <div className="NavLinks Icons">

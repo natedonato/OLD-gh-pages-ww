@@ -7,7 +7,7 @@ function Header(){
 
 
     return(
-      <div id="home" style={{backgroundColor: "lightblue", height: "520px", position: "relative", overflow: "hidden"}}>
+      <div id="home" className="headContainer">
           <div className="headerText">
               <h1>
                   ND

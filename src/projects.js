@@ -11,44 +11,89 @@ class Projects extends React.Component{
             description: "Full stack social media photosharing webapp using Ruby on Rails / Postgres backend and React.js / Redux frontend, integrated with AWS S3 cloud storage.",
             link: "http://instagraff.natedonato.com/",
             github: "http://github.com/natedonato/instagraff",
-            image: "https://www.natedonato.com/images/banana.png"
+            image: "./images/instagraff.png"
         },
         {
             title: "Landslide",
-            description: "",
+            description: "Online platforming game using JavaScript HTML and CSS, with MongoDB / Express.js backend for high score leaderboard",
             link: "http://landslide.natedonato.com/",
             github: "http://github.com/natedonato/landslide",
-            image: "https://www.natedonato.com/images/landslide-copy.png"
+            image: ".//images/landslide.png"
         },
         {
             title: "Know It All",
-            description: "",
-            link: "",
-            github: "",
-            image: "https://www.natedonato.com/images/knowitall.gif"
+            description: "A question / answer game with statistics and online search results. Team-built web-application utilizing MongoDB, Express.js, React.js, Node.js (MERN).",
+            link: "https://knowitall-app.herokuapp.com/#/",
+            github: "https://github.com/alissacrane123/KnowItAll",
+            image: "./images/knowitall.gif"
         },
         {
             title: "Meditate",
-            description: "",
-            link: "",
+            description: "A simple meditation timer web app created for personal use. Features calming music and images. Built using React.js",
+            link: "https://natedonato.com/meditate",
             github: "http://github.com/natedonato/meditate",
-            image: "https://www.natedonato.com/images/meditate2.png"
+            image: "./images/meditate.png"
         },
         {
-            title: "Instagraff",
-            description: "",
-            link: "",
-            github: "",
-            image: ""
+            title: "Bart Signs",
+            description: "Live updating Bay Area Rapid Transit estimated train departure signs for SF Embarcadero Station, using the BART API",
+            link: "https://www.natedonato.com/bartsigns",
+            github: "https://github.com/natedonato/bartsigns#readme",
+            image: "./images/bart.png"
         },
         {
-            title: "Instagraff",
-            description: "",
-            link: "",
-            github: "",
-            image: ""
+            title: "Glitch",
+            description: "Destructive photo editor uses custom pixel sorting algorithms to create destructive reimaginations of any uploaded image",
+            link: "https://natedonato.com/glitch/",
+            github: "https://github.com/natedonato/glitch#readme",
+            image: "./images/glitch.gif"
         }],
-        minorProjects: [{title: "test", link: "test"}],
+        minorProjects: [{ title: "Zen Boxes", link: "https://www.natedonato.com/zenboxes/", description: "Colorful boxes to play with in browser window for a calming break."},
+        {title:"DressCat",
+            link: "https://www.natedonato.com/dresscat/cat.html",
+        description: "A simple game built with JavaScript, CSS & HTML5. Dress the cat!"
+    },
+        {title:"Student Info",
+            link: "https://www.natedonato.com/studentInfo/",
+        description: "A sample react app for displaying, searching, and tagging students."
+    },
+        {title:"Dejumble",
+            link: "https://github.com/natedonato/dejumble#readme",
+        description: "A tool for helping solve the Daily Jumble! Work in progress."
+    },
+        {title:"Kanban Challenge",
+            link: "http://www.natedonato.com/kanban-challenge/",
+        description: "Kanban board implemented in under 30 minutes using React."
+    },
+        {title:"Watchmen",
+            link: "https://natedonato.com/watchmen",
+        description: "A stylish site for my analysis of Watchmen comic characters (WIP)."
+    },
+        {title:"Stopwatch",
+            link: "https://github.com/natedonato/reactstopwatch#readme",
+        description: "React components for creating multiple simultaneous online timers."
+    },
+        {title:"Leekspin",
+            link: "http://www.natedonato.com/leekspin/",
+        description: "Future easter egg for nateworld 2.0 (vanilla DOM / JavaScript)"
+    },
+        {title:"Fightstick",
+            link: "https://github.com/natedonato/fightstick",
+        description: "Static version of landslide game with HTML Gamepad API support (WIP)"
+    },
+        {title:"Snail",
+            link: "https://natedonato.com/snail-fe/",
+        description:"A slow moving traveling salesman with a special message. WIP / Abandonware"
+    },
+        {title:"NateWorld",
+            link: "https://natedonato.com/nateworld/",
+        description: "Gatsby site for creative personal projects (photos, poems, etc). WIP"
+    },
+        {title:"Band Names",
+            link: "https://www.natedonato.com/wordniktest/",
+        description: "A simple band name generator using words sourced from Wordnik's web API"
+    },
+],
         expanded: false
     };
     }
@@ -75,7 +120,7 @@ class Projects extends React.Component{
             <div className="projectFlex">
                 {this.state.expanded ? projects : projects.slice(0, 3)}
             </div>
-            {this.state.expanded ? minorProjects : ""}
+            {this.state.expanded ? <><div className="minorProjectContainer"><h3>Other Projects</h3>{minorProjects}</div></> : ""}
             
             {this.state.expanded ?
             <button className="projectExpand red" onClick={this.toggleExpand}> Show Less </button>
@@ -92,8 +137,9 @@ class Projects extends React.Component{
 function MinorProject(props){
 
     return(
-        <div>
-            hey
+        <div className="minorProject">
+            <a href={props.data.link}>{props.data.title}</a>
+            <span>{' - ' + props.data.description}</span>
         </div>
     )
 }
