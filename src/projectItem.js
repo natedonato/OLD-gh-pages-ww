@@ -2,7 +2,6 @@ import React from 'react';
 
 function ProjectItem(props){
     
-    console.log(props);
     return(
         <div className="projectItem">
             <img className="projectThumbnail" src={props.data.image} alt={props.data.title}></img>

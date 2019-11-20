@@ -11,7 +11,8 @@
     flex-wrap: wrap;
     justify-content: center;
     padding: 0px 50px;
-    
+    max-width: 1000px;
+    margin: 0px auto;
 }
 
 

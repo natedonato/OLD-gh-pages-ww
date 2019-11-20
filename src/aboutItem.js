@@ -22,9 +22,9 @@ class AboutItem extends React.Component{
             onClick = {
                 this.toggleExpand
             } >
-                <div className="aboutIcons">
+                <span className="aboutIcons">
                     {this.state.expanded ? < FiMinusCircle /> : < FiPlusCircle />}
-                </div>
+                </span>
                 {this.props.question}
             </p>
             {this.state.expanded ? 
