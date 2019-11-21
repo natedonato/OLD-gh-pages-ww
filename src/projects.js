@@ -91,7 +91,7 @@ class Projects extends React.Component{
     },
         {title:"Band Names",
             link: "https://www.natedonato.com/wordniktest/",
-        description: "A simple band name generator using words sourced from Wordnik's web API"
+        description: "A simple band name generator using words sourced via Wordnik web API"
     },
 ],
         // expanded: false
