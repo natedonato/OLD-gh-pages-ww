@@ -94,14 +94,14 @@ class Projects extends React.Component{
         description: "A simple band name generator using words sourced from Wordnik's web API"
     },
 ],
-        expanded: false
+        // expanded: false
     };
     }
 
-    toggleExpand = () =>{
-        let expand = !this.state.expanded;
-        this.setState({expanded: expand});
-    }
+    // toggleExpand = () =>{
+    //     let expand = !this.state.expanded;
+    //     this.setState({expanded: expand});
+    // }
 
     render(){
 
@@ -116,19 +116,13 @@ class Projects extends React.Component{
     return(
         <>
         <div className="projectsContainer" id="projects">
-            <h1 className="projectHeader"><strong>Personal Projects</strong></h1>
+            <h1 className="projectHeader"><strong>Featured Projects</strong></h1>
             <div className="projectFlex">
-                {this.state.expanded ? projects : projects.slice(0, 3)}
+                {projects}
             </div>
-            {this.state.expanded ? <><div className="minorProjectContainer"><h3>Other Projects</h3>{minorProjects}</div></> : ""}
-            
-            {this.state.expanded ?
-            <button className="projectExpand red" onClick={this.toggleExpand}> Show Less </button>
-            :
-            <button className="projectExpand" onClick={this.toggleExpand}> View More Projects </button>
-                }
+            <div className="minorProjectContainer"><h3>Other Projects</h3>{minorProjects}</div>
+                    <div className="projectsFoot" />
         </div>
-        <div className="projectsFoot" />
         </>
     )
     }

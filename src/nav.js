@@ -15,7 +15,7 @@ function Navbar() {
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
           <a href="#Skills">Skills</a>
-          <a href="./resume/resume.html" className="resume" >Resume</a>   
+          <a href="./resume/resume.html" className="resume" title="Resume" >Resume</a>   
           <a href="#contact" >Contact</a>   
       </div>
 
