@@ -26,12 +26,33 @@
     color: inherit;
 }
 
-@media only screen and (max-width: 568px) {
+@media only screen and (max-width: 685px) {
     .BoxLogo {
         display: none;
     }
     .Navbar{
         padding: 0px 0px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    
+
+    .NavLinks{
+        width: 100%;
+        justify-content: space-evenly;
+        display: flex;
+        align-items: center;
+    }
+
+        .Icons {
+            display: none;
+        }
+}
+
+@media only screen and (max-width: 420px){
+    .resume{
+        display: none;
     }
 }
 
