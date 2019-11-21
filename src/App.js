@@ -5,6 +5,7 @@ import Navbar from './nav';
 import About from './about';
 import Projects from './projects';
 import Skills from './skills';
+import Contact from './contact';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Projects />
       <Skills />
+      <Contact />
     </div>
   );
 }

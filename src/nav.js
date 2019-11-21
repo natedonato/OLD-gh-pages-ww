@@ -15,14 +15,15 @@ function Navbar() {
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
           <a href="#Skills">Skills</a>
-          <a href="#resume" className="resume" >Resume</a>   
+          <a href="./resume/resume.html" className="resume" >Resume</a>   
+          <a href="#contact" >Contact</a>   
       </div>
 
       <div className="NavLinks Icons">
         <a href="https://github.com/natedonato/">
           <FaGithub />
         </a>
-        <a href="https://www.linkedin.com/in/nate-donato-781a9b187/">
+        <a href="https://www.linkedin.com/in/natedonato/">
           <FaLinkedin />
         </a>
       </div>

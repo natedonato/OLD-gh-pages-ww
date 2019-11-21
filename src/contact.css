@@ -1,0 +1,42 @@
+#contact{
+    color: white;
+    padding: 20px;
+    background-color: grey;
+    text-align: center;
+}
+
+#contact > div{
+    font-size: 14px;
+}
+
+.copywrite{
+    margin: 20px;
+    font-size: 10px !important;
+}
+
+.contactIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.contactIcons > a{
+    margin: 5px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.contactIcons > a > svg{
+    font-size: 40px;
+}
+
+.email > svg{
+    transform: scale(1.2);
+}
+
+.contactIcons > a:hover{
+    transform: scale(1.2);
+}
+
+.phone{
+    margin: 20px;
+}

@@ -29,6 +29,7 @@ class About extends React.Component{
     render(){
         return(
             <div className="aboutContainer" id="about"> 
+                <div className="aboutContent">
                 < h1 > I'm Nate, a <strong>software engineer</strong> and <strong>web developer</strong>,</h1>
                 < h3 >with experience in JavaScript, Node.js, React.js, Redux, SQL, Ruby on Rails, Git, HTML5, CSS3, and More </h3>
                 <p>
@@ -43,6 +44,7 @@ class About extends React.Component{
                 <p>
                     If you've read this far, it's because you're interested in seeing what I have to offer or retaining my services.  Check out some live demos of my projects or view my resume and contact information below.
                 </p>
+                </div>
             </div>
         )
     }

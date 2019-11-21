@@ -125,7 +125,7 @@ class Projects extends React.Component{
             {this.state.expanded ?
             <button className="projectExpand red" onClick={this.toggleExpand}> Show Less </button>
             :
-            <button className="projectExpand" onClick={this.toggleExpand}> View More </button>
+            <button className="projectExpand" onClick={this.toggleExpand}> View More Projects </button>
                 }
         </div>
         <div className="projectsFoot" />
