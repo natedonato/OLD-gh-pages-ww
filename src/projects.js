@@ -61,10 +61,6 @@ class Projects extends React.Component{
             link: "https://github.com/natedonato/dejumble#readme",
         description: "A tool for helping solve the Daily Jumble! Work in progress."
     },
-        {title:"Kanban Challenge",
-            link: "http://www.natedonato.com/kanban-challenge/",
-        description: "Kanban board implemented in under 30 minutes using React."
-    },
         {title:"Watchmen",
             link: "https://natedonato.com/watchmen",
         description: "A stylish site for my analysis of Watchmen comic characters (WIP)."
