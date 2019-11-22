@@ -1,6 +1,5 @@
 import React from 'react';
 import './head.css';
-import image from './testlogo.png';
 
 function Header(){
 
@@ -16,7 +15,7 @@ function Header(){
               <h3>Designer</h3>
               <h3>Engineer</h3>
           </div>
-          <img className="headImg" src={image} alt="Nate Donato" />
+          <img className="headImg" src='./images/headshotcropped.png' alt="Nate Donato" />
       </div>
     )
 
