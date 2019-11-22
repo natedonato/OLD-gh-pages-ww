@@ -2,6 +2,8 @@
     background-color: #ededed;
     position: relative;
     z-index: 1;
+    text-align: center;
+    
 } 
 
 .projectHeader{
@@ -35,8 +37,8 @@
 
 .projectContent{
     padding: 5px;
-    padding: 5px 5px 25px;
-    text-align: center;
+    padding: 5px 15px 25px;
+    text-align: left;
 }
 
 .projectLinks{
@@ -47,19 +49,34 @@
     width: 100%;
 }
 
-.projectLinks > a{
+.projectLinks > a {
     margin: 0px 10px;
+    color: #2386df;
 }
 
-@media (max-width: 800px) {
-    .projectItem{
-        width: 100%;
-    }
-
-    .projectFlex{
-        padding: 10px;
-    }
+.minorProject>a{
+    color: #2386df;
 }
+
+.projectLinks > a:link, .minorProject > a:link {
+    text-decoration: none;
+}
+
+.projectLinks > a:visited, .minorProject > a:visited {
+    text-decoration: none;
+    color: #b621b6;
+}
+
+.projectLinks > a:hover, .minorProject > a:hover {
+    text-decoration: underline;
+}
+
+.projectLinks > a:active, .minorProject > a:active {
+    text-decoration: underline;
+}
+
+
+
 /* 
 @media (max-width: 800px) {
     .projectItem{
@@ -105,13 +122,28 @@
 
 .minorProjectContainer{
     text-align: center;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+        /* width: 50%; */
+    display: inline-block;
+    margin: auto;
 }
-/* 
-.minorProject{
-    text-align: center;
-} */
 
-/* .minorProject > a{
-    margin: 0px 5px;
-} */
+.minorProject{
+    text-align: left;
+    margin: 3px;
+}
+
+@media (max-width: 800px) {
+    .projectItem {
+        width: 100%;
+    }
+
+    .projectFlex {
+        padding: 10px;
+    }
+
+    .minorProject{
+        margin: 5px 10px;
+
+    }
+}

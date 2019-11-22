@@ -20,10 +20,10 @@ function Navbar() {
       </div>
 
       <div className="NavLinks Icons">
-        <a href="https://github.com/natedonato/">
+        <a href="https://github.com/natedonato/" alt="Github">
           <FaGithub />
         </a>
-        <a href="https://www.linkedin.com/in/natedonato/">
+        <a href="https://www.linkedin.com/in/natedonato/" alt="LinkedIn">
           <FaLinkedin />
         </a>
       </div>
