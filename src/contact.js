@@ -25,7 +25,7 @@ function Contact(){
                     <FaLinkedin />
                         <div>LinkedIn</div>
                     </a>  
-                    <a href="mailto:nate@gmail.com" className="email">
+                    <a href="mailto:natedonato@gmail.com" className="email">
                     <IoIosMail />
                         <div>Email</div>
                     </a>  
